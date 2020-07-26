@@ -1,0 +1,120 @@
+#image1{
+    background-image: url("../Image/1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#myname{
+    font-size: 120px;
+    left: 35%;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+#myname:after{
+    content: "raj";
+    position: relative;
+    color: rgb(37, 34, 38);
+}
+
+#headingabout{
+    font-size: 70px;
+}
+
+#aboutcontent{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 81px;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+#image2{
+    background:linear-gradient(0deg, rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.5)), url("../Image/2.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+#image2 h1{
+    padding-left: 13%;
+    padding-top: 15%;
+}
+
+#homeleft{
+    background-color: #242226;
+}
+
+#image3{
+    background-image: url("../Image/Skills.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+#image3 h1{
+    padding-left: 13%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 70px;
+}
+
+.skilltable{
+    height: 100px;
+    border: orange 1px solid;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.skilltablerow{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#skilltablebg{
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 81px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.skillboxtop{
+    border-top: none;
+
+}
+
+.skillboxbottom{
+    border-bottom: none;
+}
+
+.skillboxleft{
+    border-left: none;
+}
+
+.skillboxright{
+    border-right: none;
+}
+
+#image4{
+    background-image: url(../Image/Contact.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#image4 h1{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    font-size: 70px;
+}
+
+#getintouchbg{
+    background-color: rgba(0, 0, 0, 0.45);
+    padding-bottom: 5%;
+}
